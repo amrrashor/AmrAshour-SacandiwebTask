@@ -1,0 +1,86 @@
+@import "./../../App.css";
+
+body {
+  overflow-x: hidden;
+}
+
+.mini_cart_icon {
+  cursor: pointer;
+  font-size: var(--second-fz);
+}
+
+.dropdown_overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400vw;
+  height: 100vh;
+  background: rgba(57, 55, 72, 0.22);
+  transition: var(--transition);
+  z-index: 1111;
+}
+
+.dropdown_content {
+  position: absolute;
+  top: 60px;
+  right: 40px;
+  background-color: var(--white);
+  padding: 20px;
+  width: 340px;
+  z-index: 22222;
+}
+
+.item_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.product_details {
+  display: flex;
+  justify-content: space-between;
+  margin:15px 0;
+}
+
+.product_details .size {
+  display: flex;
+}
+
+.product_details .size .single_size {
+  padding: 8px;
+  border: 1px solid var(--black);
+  font-weight: var(--fw-2);
+  cursor: pointer;
+}
+
+.product_details .size .single_size:last-child {
+  margin-left: 5px;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.product_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px
+}
+
+.product_img img {
+  max-width: 140px;
+  margin-left: 5px;
+}
+
+.money_counter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.money_counter P {
+  font-weight: bold;
+}
+
+.btn_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

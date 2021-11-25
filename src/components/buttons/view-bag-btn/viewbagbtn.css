@@ -1,0 +1,11 @@
+@import './../../../App.css';
+
+.view-bag {
+    background-color: var(--white);
+    color:var(--black);
+    text-transform: uppercase;
+    padding:8px 40px;
+    font-size: var(--first-fz);
+    border: var(--border);
+    margin:5px
+}

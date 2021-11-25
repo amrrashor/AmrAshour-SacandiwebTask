@@ -1,0 +1,10 @@
+@import './../../../App.css';
+
+.check-out {
+    background-color: var(--green);
+    color:var(--white);
+    text-transform: uppercase;
+    padding:8px 45px;
+    font-size: var(--first-fz);
+    margin:5px;
+}

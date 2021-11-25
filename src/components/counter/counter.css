@@ -1,0 +1,24 @@
+@import './../../App.css';
+
+.count-container{
+    display: flex;
+    flex-direction: column;
+    margin:0 5px;
+
+}
+
+.count,
+.btn {
+    width:24px;
+    height:24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px 4px;
+}
+
+.btn {
+    border: var(--border);
+    font-size: var(--first-fz);
+    cursor: pointer;
+}

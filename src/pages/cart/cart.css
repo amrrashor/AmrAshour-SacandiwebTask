@@ -1,0 +1,44 @@
+@import './../../App.css';
+
+.cart .product_details {
+    justify-content: space-between;
+}
+
+.price_tag {
+    font-weight: var(--fw-2);
+}
+
+.cart_title {
+    position: relative;
+    text-transform: uppercase;
+}
+
+.cart_title::before {
+    content: '';
+    position: absolute;
+    bottom:0;
+    background-color: var(--grey);
+    width:100%;
+    height:0.5%;
+    opacity: 0.5;
+}
+
+.cart .product_details {
+    position: relative;
+}
+
+
+.cart .product_details::before {
+    content: '';
+    position: absolute;
+    bottom:0;
+    background-color: var(--grey);
+    width:100%;
+    height:0.5%;
+    opacity: 0.5;
+}  
+
+.product_name {
+    font-weight: var(--fw-3);
+    font-size: var(--third-fz);
+}

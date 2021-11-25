@@ -1,0 +1,11 @@
+@import './../../App.css';
+
+
+.currency_switcher {
+    margin-right: 30px;
+}
+.currency_options {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

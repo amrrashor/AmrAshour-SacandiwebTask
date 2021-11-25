@@ -1,0 +1,23 @@
+@import "./../../../App.css";
+
+.add-to-cart {
+  background-color: var(--green);
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: var(--small-fz);
+  padding: 12px 50px;
+  border: 0;
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+}
+.add-to-cart:hover {
+  opacity: 0.8;
+  transition: all ease-in-out 0.4s;
+}
+
+@media screen and (max-width: 992px) {
+  .add-to-cart {
+    padding: 12px 20px;
+    font-size: var(--first-fz);
+  }
+}
